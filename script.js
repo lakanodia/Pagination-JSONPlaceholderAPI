@@ -7,7 +7,7 @@ let pageIndex = 1;
 let itemPerPage = 10;
 let isFetching = 0;
 let postList = [];
-let totalNum = 50;
+let totalNum = 100;
 
 
 
@@ -23,7 +23,7 @@ function getPosts() {
   )
     .then((response) => response.json())
     .then((jsonData) => {
-      sleepTimer(2);
+      // sleepTimer(1);
       postList = jsonData;
       drawAllPosts();
       loadPagination();
