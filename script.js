@@ -19,7 +19,7 @@ function getPosts() {
   let limit = itemPerPage;
   
   fetch(
-    `http://jsonplaceholder.typicode.com/photos?_start=${start}&_limit=${limit}`
+    `https://jsonplaceholder.typicode.com/photos?_start=${start}&_limit=${limit}`
   )
     .then((response) => response.json())
     .then((jsonData) => {
