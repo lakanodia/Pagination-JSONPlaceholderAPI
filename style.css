@@ -140,7 +140,7 @@ span:hover{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(28, 110, 169); 
+    background: rgba(28, 110, 169, 0.686); 
     border-radius: 15px;
   }
 

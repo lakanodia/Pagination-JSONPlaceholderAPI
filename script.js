@@ -8,7 +8,7 @@ let pageIndex = 1;
 let itemPerPage = 10;
 let isFetching = 0;
 let postList = [];
-let totalNum = 200;
+let totalNum = 500;
 
 
 
